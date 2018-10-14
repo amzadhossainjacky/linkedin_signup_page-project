@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Krub:200');
+body{
+    font-family: 'Krub', sans-serif;
+}
+
+
+.head-section{
+    background-color:#283E4A;
+    padding: 10px 0px;
+
+}
+
+.container{
+
+width: 1100px;
+
+margin: 0 auto;
+
+overflow: hidden;
+}
+
+.head-section .logo{
+
+float: left;
+
+width: 40%;
+}
+
+.head-section .logo h1{
+
+font-family: 'Open Sans', sans-serif;
+
+font-size: 28px;
+
+font-weight: bolder;
+
+color: #fff;
+
+display: block;
+}
+
+.head-section .logo span{background-color: #0077B5;margin: 0 2px;padding: 0 3px;border-radius: 4px;background-size: -42px;}
+
+
+
+
+
+/* signin */
+
+.sign-in{
+
+float: right;
+
+width: 60%;
+
+box-sizing: border-box;
+}
+
+.sign-in form{
+
+} 
+
+.sign-in ul{
+
+float: right;
+}
+
+.sign-in ul li{text-decoration: none;list-style: none;display: inline-block;}
+
+.sign-in ul li input{
+    
+padding: 6px 12px;
+    
+padding: 7px 12px;
+    
+margin-left: 5px;
+    
+border: 1px solid #b3b6b9;
+    
+border-radius: 2px;
+}
+
+.sign-in .submit{
+background-color: #283E4A;
+color: #fff;
+padding: 4px 12px;
+font-size: 17px;
+border: 1px solid #fff;
+border-radius: 2px;
+}
+
+.sign-in ul li a{
+    
+color: #cdcfd2;
+    
+text-decoration: none;
+    
+padding-left: 12px;
+    
+line-height: 1.333;
+    
+font-size: 14px;
+}
+
+
+
+
+
+
+/* body css */
+
+
+
+
+
+.main{
+    padding: 15px;
+    background: url(../images/group2.jpg) no-repeat top center;
+    background-size: cover;
+    height: 92vh;
+    background-position: center;
+}
+.form-contain{
+    width: 400px;
+    margin: 28px auto;
+    /* border-radius: 5px; */
+}
+.form-head {
+
+background-color: #F6F8FA;
+
+text-align: center;
+
+padding: 10px;
+}
+
+.form-head h3{
+
+margin: 10px 0;
+
+font-size: 26px;
+font-weight: 400;
+}
+
+.form-head p{
+
+font-size: 20px;
+
+font-weight: 100;
+}
+
+.form-body{
+
+background-color: #EDF0F3;
+
+padding: 20px;
+
+/* overflow: hidden; */
+}
+.form-body ul{
+
+}
+.form-body ul li{
+
+list-style: none;
+
+margin: 0 10px;
+}
+
+.form-body ul li label{
+    
+display: block;
+    
+font-size: 18px;
+}
+
+.form-body ul li input{
+    
+display: block;
+    
+padding: 5px;
+    
+width: 100%;
+    
+border-radius: 2px;
+    
+border: 1px solid #fff;
+    
+margin: 7px 0;
+}
+
+.form-body span{
+    
+font-size: 14px;
+margin: 16px 0;
+display: block;
+line-height: 1.33333;
+font-weight: 400;
+color: rgba(0,0,0,0.6);
+text-align: center;
+
+}
+
+.form-body .submit_button{
+    
+padding: 0 8px;
+    
+background-color: #0073b1;
+    
+border-radius: 2px;
+    
+font-size: 24px;
+    
+line-height: 1.5;
+    
+font-weight: 500;
+    
+color: #fff;
+    
+border: 1px solid #0073b1;
+}
+
